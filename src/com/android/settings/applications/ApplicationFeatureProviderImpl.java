@@ -61,6 +61,10 @@ public class ApplicationFeatureProviderImpl implements ApplicationFeatureProvide
     private static final String TAG = "AppFeatureProviderImpl";
     private static final boolean DEBUG = false;
 
+    private static final String WELLBEING_APP_PACKAGE = "com.google.android.apps.wellbeing.api";
+    private static final String GET_APP_USAGE_MILLIS = "get_app_usage_millis";
+    private static final String TOTAL_TIME_MILLIS = "total_time_millis";
+
     protected final Context mContext;
     private final PackageManager mPm;
     private final IPackageManager mPms;
