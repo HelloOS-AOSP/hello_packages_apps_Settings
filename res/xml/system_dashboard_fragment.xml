@@ -52,7 +52,7 @@
         android:title="@string/misc_settings_title"
         android:icon="@drawable/ic_misc_settings"
         android:order="-252"
-        android:fragment="com.android.settings.pixelage.misc.MiscSettings"/>
+        android:fragment="com.android.settings.hello.misc.MiscSettings"/>
 
     <Preference
         android:key="gesture_settings"

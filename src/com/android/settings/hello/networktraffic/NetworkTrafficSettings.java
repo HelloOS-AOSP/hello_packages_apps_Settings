@@ -1,4 +1,4 @@
-package com.android.settings.pixelage.networktraffic;
+package com.android.settings.hello.networktraffic;
 
 import android.content.ContentResolver;
 import android.content.Intent;
@@ -90,7 +90,7 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment implement
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXELAGE;
+        return MetricsProto.MetricsEvent.HELLO;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

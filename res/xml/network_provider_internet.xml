@@ -120,7 +120,7 @@
         settings:controller="com.android.settings.network.CellularSecurityPreferenceController"/>
 
     <Preference
-        android:fragment="com.android.settings.pixelage.networktraffic.NetworkTrafficSettings"
+        android:fragment="com.android.settings.hello.networktraffic.NetworkTrafficSettings"
         android:key="network_traffic_state"
         android:title="@string/network_traffic_state_title"
         android:icon="@drawable/ic_settings_network_traffic"

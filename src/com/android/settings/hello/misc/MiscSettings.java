@@ -1,4 +1,4 @@
-package com.android.settings.pixelage.misc;
+package com.android.settings.hello.misc;
 
 import android.os.Bundle;
 
@@ -17,6 +17,6 @@ public class MiscSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXELAGE;
+        return MetricsProto.MetricsEvent.HELLO;
     }
 }

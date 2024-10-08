@@ -44,7 +44,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 
-import com.android.internal.util.pixelage.HideDeveloperStatusUtils
+import com.android.internal.util.hello.HideDeveloperStatusUtils
 
 import com.android.settings.R
 

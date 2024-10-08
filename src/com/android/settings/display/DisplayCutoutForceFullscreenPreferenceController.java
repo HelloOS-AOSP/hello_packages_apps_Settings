@@ -22,7 +22,7 @@ import android.os.UserHandle;
 
 import com.android.settings.core.BasePreferenceController;
 
-import com.android.internal.util.pixelage.cutout.CutoutFullscreenController;
+import com.android.internal.util.hello.cutout.CutoutFullscreenController;
 
 public class DisplayCutoutForceFullscreenPreferenceController extends BasePreferenceController {
 
